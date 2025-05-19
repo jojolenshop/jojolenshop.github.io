@@ -6,6 +6,14 @@
     <description>Recent content in Categories on JOJOLENSHOP</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 19 May 2025 14:05:32 +0800</lastBuildDate>
     <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Category1</title>
+      <link>https://example.com/categories/category1/</link>
+      <pubDate>Mon, 19 May 2025 14:05:32 +0800</pubDate>
+      <guid>https://example.com/categories/category1/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
