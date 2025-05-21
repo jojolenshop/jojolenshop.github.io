@@ -496,9 +496,9 @@ All Categories | JOJOLENSHOP</title>
     { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+  class="flex items-center gap-4 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
-  <template x-for="icon in icons">
+  <template x-for="icon in icons" :key="icon.name">
     <div
       role="button"
       tabindex="0"
@@ -515,8 +515,17 @@ All Categories | JOJOLENSHOP</title>
       </ion-icon>
     </div>
   </template>
-</div>
 
+  
+  <a href="https://ko-fi.com/jojolen" target="_blank" rel="noopener noreferrer" class="flex items-center">
+    <img 
+      src="https://cdn.ko-fi.com/cdn/kofi3.png" 
+      alt="Buy Me a Coffee at ko-fi.com" 
+      style="height: 28px; width: auto;" 
+      class="hover:opacity-80 transition-opacity duration-200"
+    />
+  </a>
+</div>
 </footer>
 
           </div>
@@ -561,9 +570,9 @@ All Categories | JOJOLENSHOP</title>
     { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+  class="flex items-center gap-4 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
-  <template x-for="icon in icons">
+  <template x-for="icon in icons" :key="icon.name">
     <div
       role="button"
       tabindex="0"
@@ -580,8 +589,17 @@ All Categories | JOJOLENSHOP</title>
       </ion-icon>
     </div>
   </template>
-</div>
 
+  
+  <a href="https://ko-fi.com/jojolen" target="_blank" rel="noopener noreferrer" class="flex items-center">
+    <img 
+      src="https://cdn.ko-fi.com/cdn/kofi3.png" 
+      alt="Buy Me a Coffee at ko-fi.com" 
+      style="height: 28px; width: auto;" 
+      class="hover:opacity-80 transition-opacity duration-200"
+    />
+  </a>
+</div>
 </footer>
 
           </div>

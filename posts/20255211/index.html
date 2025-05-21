@@ -68,6 +68,15 @@
 </style>
 
 
+<style>
+  .ko-fi-btn img {
+    transition: transform 0.3s ease;
+  }
+  .ko-fi-btn:hover img {
+    transform: scale(1.1);
+  }
+</style>
+
 
 
 
@@ -272,7 +281,7 @@
         </p>
 
         
-        <div class="flex justify-between">
+        <div class="flex justify-between items-center">
           
             <div class="flex items-center">
   
@@ -290,7 +299,8 @@
 
           
 
-          <div class="flex items-center gap-2">
+          <div class="flex items-center space-x-4">
+            <div class="flex items-center gap-2">
   
   
 
@@ -322,6 +332,13 @@
   
 </div>
 
+
+            
+            <a href="https://ko-fi.com/你的KoFiID" target="_blank" rel="noopener noreferrer" class="ko-fi-btn" aria-label="Support me on Ko-fi" title="Support me on Ko-fi">
+              <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Ko-fi" style="height:24px;" />
+            </a>
+            
+          </div>
         </div>
       </header>
 
@@ -404,9 +421,9 @@ As an Amazon Associate, I may earn a commission from qualifying purchases throug
     { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+  class="flex items-center gap-4 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
-  <template x-for="icon in icons">
+  <template x-for="icon in icons" :key="icon.name">
     <div
       role="button"
       tabindex="0"
@@ -423,8 +440,17 @@ As an Amazon Associate, I may earn a commission from qualifying purchases throug
       </ion-icon>
     </div>
   </template>
-</div>
 
+  
+  <a href="https://ko-fi.com/jojolen" target="_blank" rel="noopener noreferrer" class="flex items-center">
+    <img 
+      src="https://cdn.ko-fi.com/cdn/kofi3.png" 
+      alt="Buy Me a Coffee at ko-fi.com" 
+      style="height: 28px; width: auto;" 
+      class="hover:opacity-80 transition-opacity duration-200"
+    />
+  </a>
+</div>
 </footer>
 
           </div>
@@ -469,9 +495,9 @@ As an Amazon Associate, I may earn a commission from qualifying purchases throug
     { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+  class="flex items-center gap-4 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
-  <template x-for="icon in icons">
+  <template x-for="icon in icons" :key="icon.name">
     <div
       role="button"
       tabindex="0"
@@ -488,8 +514,17 @@ As an Amazon Associate, I may earn a commission from qualifying purchases throug
       </ion-icon>
     </div>
   </template>
-</div>
 
+  
+  <a href="https://ko-fi.com/jojolen" target="_blank" rel="noopener noreferrer" class="flex items-center">
+    <img 
+      src="https://cdn.ko-fi.com/cdn/kofi3.png" 
+      alt="Buy Me a Coffee at ko-fi.com" 
+      style="height: 28px; width: auto;" 
+      class="hover:opacity-80 transition-opacity duration-200"
+    />
+  </a>
+</div>
 </footer>
 
           </div>
